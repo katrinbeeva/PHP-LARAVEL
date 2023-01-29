@@ -29,6 +29,8 @@ class VenueCrudController extends CrudController
         CRUD::setModel(\App\Models\Venue::class);
         CRUD::setRoute(config('backpack.base.route_prefix') . '/venue');
         CRUD::setEntityNameStrings('venue', 'venues');
+
+
     }
 
     /**
@@ -42,7 +44,8 @@ class VenueCrudController extends CrudController
         CRUD::column('name_of_theatre');
         CRUD::column('location');
         CRUD::column('city');
-
+        CRUD::column('created_at');
+        CRUD::column('updated_at');
         /**
          * Columns can be defined using the fluent syntax or array syntax:
          * - CRUD::column('price')->type('number');

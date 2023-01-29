@@ -29,6 +29,7 @@ class TicketCrudController extends CrudController
         CRUD::setModel(\App\Models\Ticket::class);
         CRUD::setRoute(config('backpack.base.route_prefix') . '/ticket');
         CRUD::setEntityNameStrings('ticket', 'tickets');
+
     }
 
     /**
@@ -39,8 +40,10 @@ class TicketCrudController extends CrudController
      */
     protected function setupListOperation()
     {
-        CRUD::column('type_of_ticket');
         CRUD::column('price');
+        CRUD::column('type_of_ticket');
+        CRUD::column('created_at');
+        CRUD::column('updated_at');
 
         /**
          * Columns can be defined using the fluent syntax or array syntax:
