@@ -25,7 +25,9 @@ class VenueRequest extends FormRequest
     public function rules()
     {
         return [
-            // 'name' => 'required|min:5|max:255'
+            'name_of_theatre' => 'required|min:3|max:255',
+            'location' => 'required|min:3|max:255',
+            'city' => 'required|min:3|max:255'
         ];
     }
 

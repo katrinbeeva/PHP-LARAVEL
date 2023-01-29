@@ -25,7 +25,9 @@ class PerformanceRequest extends FormRequest
     public function rules()
     {
         return [
-            // 'name' => 'required|min:5|max:255'
+            'name_of_performance' => 'required|min:3|max:255',
+            'performance_date' => 'required|min:2|max:255',
+            'venue_id' => 'required|min:1|max:255'
         ];
     }
 
