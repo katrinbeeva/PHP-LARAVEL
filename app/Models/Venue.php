@@ -17,7 +17,7 @@ class Venue extends Model
     |--------------------------------------------------------------------------
     */
 
-    protected $table = 'venues';
+    protected $table = 'venue';
     // protected $primaryKey = 'id';
     // public $timestamps = false;
     protected $guarded = ['id'];

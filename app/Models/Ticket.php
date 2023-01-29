@@ -17,7 +17,7 @@ class Ticket extends Model
     |--------------------------------------------------------------------------
     */
 
-    protected $table = 'tickets';
+    protected $table = 'ticket';
     // protected $primaryKey = 'id';
     // public $timestamps = false;
     protected $guarded = ['id'];
