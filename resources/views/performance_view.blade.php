@@ -15,7 +15,18 @@
         <i class="bi bi-list mobile-nav-toggle"></i>
     </nav><!-- .navbar -->
     <!-- Търсачка -->
-    <a href="#about" class="get-started-btn scrollto">Get Started</a>
+    <li class="search">
+        <form action="/performance" method="GET">
+
+            <label for="search" class="sr-only">
+                Search
+            </label>
+            <input type="text" name="s" placeholder="Търси....">
+            <a href="#">
+                <span class="lnr lnr-magnifier"></span>
+            </a>
+        </form>
+    </li>
 
 </div>@endsection
 @section('about-us')

@@ -22,3 +22,4 @@ Route::get('/performance_view', [PerformanceViewController::class, 'performance'
 Route::get('/venue_view',[VenueViewController::class,'venue']);
 Route::get('/ticket_view',[TicketViewController::class,'tickets']);
 
+Route::get('/performance', [PerformanceViewController::class,'search'])->name('search');
