@@ -3,6 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Http\Requests;
+use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\DB;
 
 class TicketViewController extends Controller
 {
@@ -10,6 +13,6 @@ class TicketViewController extends Controller
     {
         $tickets = DB::table('ticket')->select('price','type_of_ticket')->get();
         return (
-        view('tickets_view', ['ticket' => $tickets]));
+        view('ticket_view', ['ticket' => $tickets]));
     }
 }

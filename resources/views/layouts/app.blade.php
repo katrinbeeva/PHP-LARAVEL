@@ -27,6 +27,7 @@
 
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/tablestyle.css" rel="stylesheet">
 
     <!-- =======================================================
     * Template Name: Gp - v4.10.0

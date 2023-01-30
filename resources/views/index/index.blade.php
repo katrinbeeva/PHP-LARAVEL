@@ -7,33 +7,14 @@
 
     <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
-            <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-            <li><a class="nav-link scrollto" href="#about">About</a></li>
-            <li><a class="nav-link scrollto" href="#services">Services</a></li>
-            <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
-            <li><a class="nav-link scrollto" href="#team">Team</a></li>
-            <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
-                <ul>
-                    <li><a href="#">Drop Down 1</a></li>
-                    <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                        <ul>
-                            <li><a href="#">Deep Drop Down 1</a></li>
-                            <li><a href="#">Deep Drop Down 2</a></li>
-                            <li><a href="#">Deep Drop Down 3</a></li>
-                            <li><a href="#">Deep Drop Down 4</a></li>
-                            <li><a href="#">Deep Drop Down 5</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">Drop Down 2</a></li>
-                    <li><a href="#">Drop Down 3</a></li>
-                    <li><a href="#">Drop Down 4</a></li>
+            <li><a href="/">Начало</a></li>
+            <li><a href="/performance_view">Представления</a></li>
+            <li><a href="/venue_view">Места за провеждане</a></li>
+            <li><a href="/ticket_view">Билети</a></li>
                 </ul>
-            </li>
-            <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-        </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
     </nav><!-- .navbar -->
-
+    <!-- Търсачка -->
     <a href="#about" class="get-started-btn scrollto">Get Started</a>
 
 </div>@endsection
@@ -45,19 +26,18 @@
                 <img src="assets/img/about.jpg" class="img-fluid" alt="">
             </div>
             <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
-                <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+                <h3>Никога не бива да забравяме, че театралната сцена служи за всенародно училище.
+                </h3>
                 <p class="fst-italic">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua.
+                    Театърът е вид сценично изкуство,
+                    което се състои от изиграване на сценарии или истории пред публика,
+                    при което се използва съчетание от реч, жестове, музика, танц, звук и зрелище.
                 </p>
-                <ul>
-                    <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                    <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                    <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
-                </ul>
+
                 <p>
-                    Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident
+                    В основата на драматичното действие стои конфликт, чието разрешение или неразрешение провокира размисъл.
+                    Целта на театъра е да предизвика у зрителите катарзис. Като всяко изкуство,
+                    той представлява покана за разговор – елемент от един безкраен диалог.
                 </p>
             </div>
         </div>
@@ -67,8 +47,8 @@
 @section('service')  <div class="container" data-aos="fade-up">
 
     <div class="section-title">
-        <h2>Services</h2>
-        <p>Check our Services</p>
+        <h2>Постановки</h2>
+        <p>Скорошни постановки</p>
     </div>
 
     <div class="row">

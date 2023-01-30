@@ -16,7 +16,7 @@ class PerformanceViewController extends Controller
     {
         $venues = DB::table('venue')->select('name_of_performance')->get();
         return (
-        view('venues_view', ['venue' => $venues]));
+        view('venue_view', ['venue' => $venues]));
     }
 
 
