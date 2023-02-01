@@ -108,7 +108,7 @@ class PerformanceSeeder extends Seeder
                 'performance_date' => '2023-01-24',
                 'venue_id'=>9
             ],
-       
+
         ]);
 
     }

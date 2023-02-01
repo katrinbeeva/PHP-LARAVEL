@@ -70,7 +70,7 @@
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box">
                 <div class="icon"><i class="bx bxl-dribbble"></i></div>
-                <h4><a href="">Забранените фокуси на Ненчо</a></h4>
+                <h4><a href="/performance_view">Забранените фокуси на Ненчо</a></h4>
 
                 <p>„ЗАБРАНЕНИТЕ ФОКУСИ НА НЕНЧО” е магичен спектакъл за хора от всички възрасти, готови да се потопят в бездната на магията.</p>
             </div>
@@ -79,7 +79,7 @@
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
             <div class="icon-box">
                 <div class="icon"><i class="bx bx-file"></i></div>
-                <h4><a href="">Лисичета</a></h4>
+                <h4><a href="/performance_view">Лисичета</a></h4>
                 <p>Знаковата пиеса на Лилиан Хелман ни въвлича в едно „хищно време“ и в едно семейство,
                     втурнало се едновременно с неподозирана алчност, но и с предприемачески дух към просперитет</p>
             </div>
@@ -88,7 +88,7 @@
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
             <div class="icon-box">
                 <div class="icon"><i class="bx bx-tachometer"></i></div>
-                <h4><a href="">Гласове под наем</a></h4>
+                <h4><a href="/performance_view">Гласове под наем</a></h4>
                 <p>"Гласове под наем" разкрива напрегнати и комични ситуации, в които изпадат четирима актьори, отишли на рутинната си работа в звукозаписно студио.</p>
             </div>
         </div>
