@@ -108,12 +108,7 @@ class PerformanceSeeder extends Seeder
                 'performance_date' => '2023-01-24',
                 'venue_id'=>9
             ],
-            [
-                'image'=>'assets/image for performances/Зимата на нашето недоволство.jpeg',
-                'name_of_performance'=> 'Зимата на нашето недоволство',
-                'performance_date' => '2023-01-24',
-                'venue_id'=>12
-            ],
+       
         ]);
 
     }
