@@ -48,9 +48,9 @@ class PerformanceCrudController extends CrudController
             [    // SelectMultiple = n-n relationship (with pivot table)
                 'label'     => "Venue",
                 'type'      => ($show ? "select": 'select_multiple'),
-                'name'      => 'venues', // the method that defines the relationship in your Model
+                'name'      => 'venue', // the method that defines the relationship in your Model
                  // optional
-                'entity'    => 'venues', // the method that defines the relationship in your Model
+                'entity'    => 'venue', // the method that defines the relationship in your Model
                 'model'     => "App\Models\Venue", // foreign key model
                 'attribute' => 'location', 'city', 'name_of_theatre', // foreign key attribute that is shown to user
                 'pivot'     => true, // on create&update, do you need to add/delete pivot table entries?

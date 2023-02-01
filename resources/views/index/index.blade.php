@@ -1,7 +1,7 @@
 @extends('layouts.app')
 @section('header') <div class="container d-flex align-items-center justify-content-lg-between">
 
-    <h1 class="logo me-auto me-lg-0"><a href="index.html">Gp<span>.</span></a></h1>
+    <h1 class="logo me-auto me-lg-0"><a href="index.html">Българския театър<span>.</span></a></h1>
     <!-- Uncomment below if you prefer to use an image logo -->
     <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -66,7 +66,7 @@
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box">
                 <div class="icon"><i class="bx bxl-dribbble"></i></div>
-                <h4><a href="">Lorem Ipsum</a></h4>
+                <h4><a href="">Забранените фокуси на Ненчо</a></h4>
                 <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
             </div>
         </div>
@@ -129,12 +129,11 @@
 
             <div class="col-lg-3 col-md-6">
                 <div class="footer-info">
-                    <h3>Gp<span>.</span></h3>
+                    <h3>Българският Театър<span>.</span></h3>
                     <p>
-                        A108 Adam Street <br>
-                        NY 535022, USA<br><br>
-                        <strong>Phone:</strong> +1 5589 55488 55<br>
-                        <strong>Email:</strong> info@example.com<br>
+                        България <br><br>
+                        <strong>Телефон за контакт:</strong> +359 878 17 3419<br>
+                        <strong>Имейл:</strong> bulgarian_theatre@abv.bg <br>
                     </p>
                     <div class="social-links mt-3">
                         <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
@@ -147,32 +146,31 @@
             </div>
 
             <div class="col-lg-2 col-md-6 footer-links">
-                <h4>Useful Links</h4>
+                <h4>Полезни линкове</h4>
                 <ul>
-                    <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-                    <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-                    <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-                    <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-                    <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+                    <li><i class="bx bx-chevron-right"></i> <a href="/">Начало</a></li>
+                    <li><i class="bx bx-chevron-right"></i> <a href="/performance_view">Представления</a></li>
+                    <li><i class="bx bx-chevron-right"></i> <a href="/venue_view">Места за провеждане</a></li>
+                    <li><i class="bx bx-chevron-right"></i> <a href="/ticket_view">Билети</a></li>
+
                 </ul>
             </div>
 
-            <div class="col-lg-3 col-md-6 footer-links">
-                <h4>Our Services</h4>
-                <ul>
-                    <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-                    <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-                    <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-                    <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-                    <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
-                </ul>
-            </div>
+
 
             <div class="col-lg-4 col-md-6 footer-newsletter">
-                <h4>Our Newsletter</h4>
-                <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+                <h4>Абонирай се</h4>
+                <p>Абонирай се, за да получаваш известие всеки път, когато има постановка в твоя град</p>
                 <form action="" method="post">
-                    <input type="email" name="email"><input type="submit" value="Subscribe">
+                    <input type="email" name="email"><input type="submit" value="Абонирай се">
+                </form>
+
+            </div>
+            <div class="col-lg-4 col-md-6 footer-newsletter">
+                <h4>Абонирай се</h4>
+                <p>Абонирай се, за да получаваш известие всеки път, когато има постановка в твоя град</p>
+                <form action="" method="post">
+                    <input type="email" name="email"><input type="submit" value="Абонирай се">
                 </form>
 
             </div>
