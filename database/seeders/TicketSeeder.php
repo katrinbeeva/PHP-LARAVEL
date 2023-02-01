@@ -21,6 +21,14 @@ class TicketSeeder extends Seeder
                 'price' => '5.00 лв.',
             ],
             [
+                'type_of_ticket'=> 'Детски + Детски',
+                'price' => '8.00 лв.',
+            ],
+            [
+                'type_of_ticket'=> 'Ученически',
+                'price' => '6.00 лв.',
+            ],
+            [
                 'type_of_ticket'=> 'Студентски',
                 'price' => '6.00 лв.',
             ],
@@ -28,6 +36,7 @@ class TicketSeeder extends Seeder
                 'type_of_ticket'=> 'За възрастни',
                 'price' => '7.00 лв.',
             ],
+
         ]);
     }
 }

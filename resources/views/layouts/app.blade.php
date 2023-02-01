@@ -50,12 +50,12 @@
 
         <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="150">
             <div class="col-xl-6 col-lg-8">
-                <h1>Powerful Digital Solutions With Gp<span>.</span></h1>
-                <h2>We are team of talented digital marketers</h2>
+                <h1>Без компютри няма напредък и без театър няма живот! <br> - Стоянка Мутафова<span>.</span></h1>
+
             </div>
         </div>
 
-        <div class="row gy-4 mt-5 justify-content-center" data-aos="zoom-in" data-aos-delay="250">
+        <div class="row gy-4 mt-5 justify-content-center" data-aos="zoom-in" data-aos-delay="50">
             <div class="col-xl-2 col-md-4">
                 <div class="icon-box">
                     <i class="ri-store-line"></i>
@@ -74,18 +74,7 @@
                     <h3><a href="">Sedare Perspiciatis</a></h3>
                 </div>
             </div>
-            <div class="col-xl-2 col-md-4">
-                <div class="icon-box">
-                    <i class="ri-paint-brush-line"></i>
-                    <h3><a href="">Magni Dolores</a></h3>
-                </div>
-            </div>
-            <div class="col-xl-2 col-md-4">
-                <div class="icon-box">
-                    <i class="ri-database-2-line"></i>
-                    <h3><a href="">Nemos Enimade</a></h3>
-                </div>
-            </div>
+
         </div>
 
     </div>
@@ -97,7 +86,6 @@
     <section id="about" class="about">
         @yield('about-us')
     </section><!-- End About Section -->
-
 
     <!-- ======= Services Section ======= -->
     <section id="services" class="services">

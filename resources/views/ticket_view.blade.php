@@ -1,7 +1,7 @@
 @extends('layouts.app')
 @section('header') <div class="container d-flex align-items-center justify-content-lg-between">
 
-    <h1 class="logo me-auto me-lg-0"><a href="index.html">Българският Театър<span>.</span></a></h1>
+    <h1 class="logo me-auto me-lg-0"><a href="/">Българският Театър<span>.</span></a></h1>
     <!-- Uncomment below if you prefer to use an image logo -->
     <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -44,6 +44,7 @@
                     <th>Вид билет</th>
                     <th>Цена</th>
                 </tr>
+
                 </thead>
                 <tbody>
                 @foreach($ticket as $ticket)
@@ -54,6 +55,9 @@
                 @endforeach
                 </tbody>
             </table>
+            <div class="text-center">
+            <a class="cta-btn" href="/ticket_view">Поръчай своя билет от тук!</a>
+    </div>
     </div>
 @endsection
 @section('footer-top')<div class="footer-top">
@@ -102,15 +106,15 @@
         </div>
     </div>
 </div>@endsection
-@section('copyright')<div class="container">
-    <div class="copyright">
-        &copy; Copyright <strong><span>Gp</span></strong>. All Rights Reserved
-    </div>
-    <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-    </div>
-</div>@endsection
+        @section('copyright')<div class="container">
+            <div class="copyright">
+                &copy; Copyright <strong><span>Българският театър</span></strong>. All Rights Reserved
+            </div>
+            <div class="credits">
+                <!-- All the links in the footer should remain intact. -->
+                <!-- You can delete the links only if you purchased the pro version. -->
+                <!-- Licensing information: https://bootstrapmade.com/license/ -->
+                <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/ -->
+                Designed by <a href="https://bootstrapmade.com/">Katrin Beeva</a>
+            </div>
+        </div>@endsection

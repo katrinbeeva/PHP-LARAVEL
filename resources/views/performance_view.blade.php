@@ -1,7 +1,7 @@
 @extends('layouts.app')
 @section('header') <div class="container d-flex align-items-center justify-content-lg-between">
 
-    <h1 class="logo me-auto me-lg-0"><a href="index.html">Българският Театър<span>.</span></a></h1>
+    <h1 class="logo me-auto me-lg-0"><a href="/">Българският Театър<span>.</span></a></h1>
     <!-- Uncomment below if you prefer to use an image logo -->
     <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -43,7 +43,7 @@
                 <tr>
                     <th>Снимка на представлението</th>
                     <th>Име на представлението</th>
-                    <th>Дата на представлението </th>
+                       <th>Дата на представлението </th>
                     <th>Театър</th>
                     <th>Адрес</th>
                     <th>Град</th>
@@ -58,7 +58,6 @@
                         <td>
                             @foreach($performance->venue as $venue)
                                 {{ $venue->name_of_theatre}}
-
                             @endforeach
                         </td>
                         <td>
@@ -102,15 +101,15 @@
             </div>
 
             <div class="col-lg-2 col-md-6 footer-links">
-                <h4>Полезни линкове</h4>
+                <h4>Useful Links</h4>
                 <ul>
                     <li><i class="bx bx-chevron-right"></i> <a href="/">Начало</a></li>
                     <li><i class="bx bx-chevron-right"></i> <a href="/performance_view">Представления</a></li>
                     <li><i class="bx bx-chevron-right"></i> <a href="/venue_view">Места за провеждане</a></li>
                     <li><i class="bx bx-chevron-right"></i> <a href="/ticket_view">Билети</a></li>
-
                 </ul>
             </div>
+
 
 
             <div class="col-lg-4 col-md-6 footer-newsletter">
@@ -127,13 +126,13 @@
 </div>@endsection
 @section('copyright')<div class="container">
     <div class="copyright">
-        &copy; Copyright <strong><span>Gp</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span>Българският театър</span></strong>. All Rights Reserved
     </div>
     <div class="credits">
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        Designed by <a href="https://bootstrapmade.com/">Katrin Beeva</a>
     </div>
 </div>@endsection
