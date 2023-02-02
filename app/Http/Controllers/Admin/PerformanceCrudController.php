@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Admin;
 use App\Http\Requests\PerformanceRequest;
 use Backpack\CRUD\app\Http\Controllers\CrudController;
 use Backpack\CRUD\app\Library\CrudPanel\CrudPanelFacade as CRUD;
+use App\Models\Venue;
 
 /**
  * Class PerformanceCrudController
@@ -101,7 +102,7 @@ class PerformanceCrudController extends CrudController
         CRUD::field('name_of_performance');
         CRUD::field('performance_date');
         CRUD::field('image');
-        CRUD::field('venue_id');
+        //CRUD::field('venue_id');
 
 
         /**

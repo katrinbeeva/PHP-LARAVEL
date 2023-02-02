@@ -182,6 +182,7 @@ return [
     | By default the registration is open only on localhost.
     */
 
+    //remove registration
     'registration_open' => env('BACKPACK_REGISTRATION_OPEN', false),
 
     /*

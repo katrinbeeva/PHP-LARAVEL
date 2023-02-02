@@ -26,7 +26,7 @@ class PerformanceRequest extends FormRequest
     {
         return [
             'name_of_performance' => 'required|min:3|max:255',
-            'performance_date' => 'required|min:2|max:255'
+            'performance_date' => 'required|min:2|max:255',
         ];
     }
 

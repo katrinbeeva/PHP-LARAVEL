@@ -24,7 +24,8 @@ class Performance extends Model
     // protected $primaryKey = 'id';
     // public $timestamps = false;
     protected $guarded = ['id'];
-    // protected $fillable = [];
+    //protected $fillable = ['venue_id','name_of_performance', 'performance_date'];
+    //,'name_of_performance', 'performance_date', 'image', ];
     // protected $hidden = [];
     // protected $dates = [];
 
